@@ -1,0 +1,19 @@
+.fixedHeader {
+  opacity: 0.8;
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+  top: 0;
+  z-index: 2;
+}
+.smallJactLogo {
+  margin-left: 5px;
+  height: 40px;
+  width: 130px;
+  background-image: url('../../assets/jcat_logo_white.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+}

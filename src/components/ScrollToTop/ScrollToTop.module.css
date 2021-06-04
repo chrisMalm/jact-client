@@ -1,0 +1,15 @@
+.scrollToTop {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: yellowgreen;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  cursor: pointer;
+}
