@@ -9,6 +9,7 @@ import { JactProspectSessions } from './components/JactProspectSessions/JactPros
 import { FindYourAdventure } from './components/FindYourAventure/FindYourAdventure';
 import { WelcomeToJact } from './components/WelcomeToJact/WelcomeToJact';
 import { ScrollToTop } from './components/ScrollToTop/ScrollToTop';
+import { RollingInstagram } from './components/RollingInstagram/RollingInstagram';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
       <Header />
       <ScrollToTop />
       <JactCarousel />
+      <RollingInstagram />
       <WelcomeToJact />
       <JoinTheNetwork />
       <FindYourAdventure />

@@ -35,3 +35,15 @@
 #test {
   z-index: 0;
 }
+
+.anchorTag {
+  color: #fafafa;
+  font-size: 30px;
+  top: 40%;
+  font-weight: 600;
+}
+
+.anchorTag:hover {
+  color: #fafafa;
+  text-decoration: none;
+}

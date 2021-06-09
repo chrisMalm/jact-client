@@ -20,8 +20,10 @@ export const ScrollToTop = () => {
     return false;
   }
   return (
-    <div className={classes.scrollToTop} onClick={() => toTop()}>
-      <i className='fas fa-chevron-up'></i>
+    <div className={classes.wrapperScrollToTop}>
+      <div className={classes.scrollToTop} onClick={() => toTop()}>
+        <i className='fas fa-chevron-up'></i>
+      </div>
     </div>
   );
 };
