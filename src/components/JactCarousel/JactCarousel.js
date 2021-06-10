@@ -11,7 +11,7 @@ export const JactCarousel = () => {
   return (
     <div className={classes.wrapperCarousel}>
       <Carousel prevIcon='' nextIcon='' indicators={false}>
-        <Carousel.Item interval={3000000} id={classes.item}>
+        <Carousel.Item interval={3000} id={classes.item}>
           <img className={classes.imgOne} src={slide1} alt='first slide' />
           <Carousel.Caption id={classes.test}>
             <a className={classes.anchorTag} href='#welcome'>
