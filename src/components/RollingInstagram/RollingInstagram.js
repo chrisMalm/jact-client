@@ -18,28 +18,17 @@ export const RollingInstagram = () => {
   }, []);
 
   return (
-    <>
-      {/* <div class="ticker-wrap">
-<div class="ticker">
-  <div class="item">Letterpress chambray brunch.</div>
-  <div class="item">Vice mlkshk crucifix beard chillwave meditation hoodie asymmetrical Helvetica.</div>
-  <div class="item">Ugh PBR&B kale chips Echo Park.</div>
-  <div class="item">Gluten-free mumblecore chambray mixtape food truck. </div>
-  <div class="item">Authentic bitters seitan pug single-origin coffee whatever.</div>
-  </div>
-  </div> */}
-      <div className={classes.wrapperTwitterFeed}>
-        <div className={classes.twitterFeed}>
-          {tweets &&
-            tweets.map((tweet) => {
-              return (
-                <div className={classes.twitterFeedItem} key={tweet.id}>
-                  {tweet.text}
-                </div>
-              );
-            })}
-        </div>
+    <div className={classes.wrapperTwitterFeed}>
+      <div className={classes.twitterFeed}>
+        {tweets &&
+          tweets.map((tweet) => {
+            return (
+              <div className={classes.twitterFeedItem} key={tweet.id}>
+                {tweet.text}
+              </div>
+            );
+          })}
       </div>
-    </>
+    </div>
   );
 };
