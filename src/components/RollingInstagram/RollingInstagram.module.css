@@ -1,7 +1,7 @@
 .wrapperTwitterFeed {
   width: 100%;
   height: 3rem;
-  background-color: black;
+  background-image: linear-gradient(to right, #141413, #2e3c5e);
   padding-left: 100%;
   box-sizing: content-box;
 }

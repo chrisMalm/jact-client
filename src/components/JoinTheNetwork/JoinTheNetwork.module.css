@@ -1,5 +1,31 @@
 .wrapperTheNetwork {
-  height: 500px;
   width: 100%;
-  background-color: aquamarine;
+  height: 500px;
+  background-color: #dee0df;
+  display: flex;
+  padding: 20px;
+}
+.networkImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1px solid;
+}
+.networkText {
+  align-items: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.wrapperNetworkImg {
+  display: flex;
+  padding: 20px;
+}
+.networkImgOne,
+.networkImgTwo {
+  padding: 20px;
 }

@@ -1,5 +1,24 @@
 .wrapperBookUs {
-  height: 500px;
-  background-color: blue;
+  background-color: #929292;
   width: 100%;
+  height: 500px;
+  display: flex;
+  padding: 20px;
+}
+
+.bookUsText {
+  align-items: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.bookUsImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-right: 1px solid;
 }

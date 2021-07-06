@@ -1,3 +1,5 @@
 .appContainer {
   overflow: hidden;
+  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Noto Sans', sans-serif; */
 }

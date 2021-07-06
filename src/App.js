@@ -10,13 +10,14 @@ import { FindYourAdventure } from './components/FindYourAventure/FindYourAdventu
 import { WelcomeToJact } from './components/WelcomeToJact/WelcomeToJact';
 import { ScrollToTop } from './components/ScrollToTop/ScrollToTop';
 import { RollingInstagram } from './components/RollingInstagram/RollingInstagram';
-
+import { Home } from './components/Home/Home';
 export const App = () => {
   return (
     <div className={classes.appContainer}>
       <Header />
       <ScrollToTop />
-      <JactCarousel />
+      {/* <JactCarousel /> */}
+      <Home />
       <RollingInstagram />
       <WelcomeToJact />
       <JoinTheNetwork />
