@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './JactCarousel.module.css';
 import { Carousel } from 'react-bootstrap';
-import slide1 from '../../assets/cropped1slide.jpg';
+import slide1 from '../../assets/pic1.jpg';
 import slide2 from '../../assets/carousel2.jpg';
 import slide3 from '../../assets/carousel3.jpg';
 import slide4 from '../../assets/carousel4.jpg';

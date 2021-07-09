@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  padding: 40px 40px 15px 40px;
+  justify-content: flex-end;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.icons:hover {
+  color: #5a4a0d;
+}
+.icons {
+  padding: 0px !important;
+  font-size: 20px;
+  color: #706161;
+}

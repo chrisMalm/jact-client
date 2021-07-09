@@ -3,7 +3,7 @@ import React from 'react';
 
 export const JoinTheNetwork = () => {
   return (
-    <div id='welcome' className={classes.wrapperTheNetwork}>
+    <div id='network' className={classes.wrapperTheNetwork}>
       <div className={classes.networkText}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quis
         numquam reiciendis quaerat dolorum neque in vitae voluptatem, rem

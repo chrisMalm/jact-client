@@ -3,7 +3,7 @@ import React from 'react';
 
 export const BookUsForLectures = () => {
   return (
-    <div id='welcome' className={classes.wrapperBookUs}>
+    <div id='lectures' className={classes.wrapperBookUs}>
       <div className={classes.bookUsText}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quis
         numquam reiciendis quaerat dolorum neque in vitae voluptatem, rem

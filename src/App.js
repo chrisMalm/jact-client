@@ -11,19 +11,21 @@ import { WelcomeToJact } from './components/WelcomeToJact/WelcomeToJact';
 import { ScrollToTop } from './components/ScrollToTop/ScrollToTop';
 import { RollingInstagram } from './components/RollingInstagram/RollingInstagram';
 import { Home } from './components/Home/Home';
+import { Footer } from './components/Footer/Footer';
 export const App = () => {
   return (
     <div className={classes.appContainer}>
       <Header />
       <ScrollToTop />
-      {/* <JactCarousel /> */}
-      <Home />
+      <JactCarousel />
+      {/* <Home /> */}
       <RollingInstagram />
       <WelcomeToJact />
       <JoinTheNetwork />
       <FindYourAdventure />
       <JactProspectSessions />
       <BookUsForLectures />
+      <Footer />
     </div>
   );
 };
