@@ -1,0 +1,21 @@
+.wrapperGdpr {
+  color: rgb(15, 15, 15);
+  position: fixed;
+  z-index: 20;
+  bottom: 10%;
+  width: 95%;
+  background: rgb(230, 230, 230);
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 12px;
+}
+.cross {
+  font-size: 18px;
+  padding: 10px 15px 0px 0px;
+  float: right;
+  cursor: pointer;
+}
+.gdpr {
+  padding: 30px;
+  font-size: 18px;
+}

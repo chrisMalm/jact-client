@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classes from './JactCarousel.module.css';
 import { Carousel } from 'react-bootstrap';
 import slide1 from '../../assets/pic1.jpg';
@@ -6,10 +6,15 @@ import slide2 from '../../assets/carousel2.jpg';
 import slide3 from '../../assets/carousel3.jpg';
 import slide4 from '../../assets/carousel4.jpg';
 import slide5 from '../../assets/carousel5.jpg';
+import { Gdpr } from '../Gdpr/Gdpr';
 
 export const JactCarousel = () => {
+  const [gdpr, setGdpr] = useState(true);
+
   return (
     <div className={classes.wrapperCarousel}>
+      {gdpr ? <Gdpr setGdpr={setGdpr} gdpr={gdpr} /> : null}
+
       <Carousel prevIcon='' nextIcon='' indicators={false}>
         <Carousel.Item interval={3000} id={classes.item}>
           <img className={classes.imgOne} src={slide1} alt='first slide' />
