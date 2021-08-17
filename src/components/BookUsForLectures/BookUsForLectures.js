@@ -22,7 +22,7 @@ export const BookUsForLectures = () => {
       <div className={classes.bookUsImg}>
         {' '}
         <a href='http://placeholder.com'>
-          <img src='https://via.placeholder.com/450x350' />
+          <img src='https://via.placeholder.com/450x350' alt='' />
         </a>
       </div>
     </div>

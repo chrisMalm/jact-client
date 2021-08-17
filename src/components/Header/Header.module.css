@@ -1,18 +1,85 @@
 .fixedHeader {
-  opacity: 0.8;
+  display: flex;
+  /* opacity: 0.8; */
   width: 100%;
   position: fixed;
-  padding: 10px 0;
-  color: #fff;
+  padding: 30px 0px 30px 30px;
+  /* color: #fff; */
   top: 0;
-  z-index: 2;
+  /* z-index: 2; */
 }
 .smallJactLogo {
-  margin-left: 5px;
+  /* margin-left: 5px; */
   height: 40px;
   width: 130px;
   background-image: url('../../assets/jcat_logo_white.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: 110px;
+  font-size: 14px;
+    font-weight: bold;
+}
+
+.link{
+  margin-right: 90px;
+  cursor: pointer;
+  color: #fff;
+  
+}
+.link:hover{
+  text-decoration: none;
+  color: rgb(93 101 137);;
+}
+
+.mobileLinks{
+  display: none;
+}
+
+.wrapperHamburger{
+  display: none;
+}
+
+/* mobile view  */
+
+@media (max-width: 990px) {
+  .mobileLinks{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    line-height: 46px;
+    width: 100%;
+    background: #201d1d03;
+  }
+  .wrapperHamburger{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+  .links{
+    display: none;
+  }
+  .link{
+    margin: 0px;
+  }
+  .mobileLink{
+    color: #fff;
+  }
+  .mobileLink:hover{
+    text-decoration: none;
+    color: rgb(93 101 137);;
+  }
 }

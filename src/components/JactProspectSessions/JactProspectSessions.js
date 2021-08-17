@@ -6,7 +6,7 @@ export const JactProspectSessions = () => {
     <div id='prospect' className={classes.wrapperProspect}>
       <div className={classes.prospectLeft}>
         <a href='http://placeholder.com'>
-          <img src='https://via.placeholder.com/250x175' />
+          <img src='https://via.placeholder.com/250x175' alt='' />
         </a>
         <div className={classes.textLeft}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
@@ -17,7 +17,7 @@ export const JactProspectSessions = () => {
       </div>
       <div className={classes.prospectCenter}>
         <a href='http://placeholder.com'>
-          <img src='https://via.placeholder.com/250x175' />
+          <img src='https://via.placeholder.com/250x175' alt='' />
         </a>
         <div className={classes.textCenter}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
@@ -28,7 +28,7 @@ export const JactProspectSessions = () => {
       </div>
       <div className={classes.prospectRight}>
         <a href='http://placeholder.com'>
-          <img src='https://via.placeholder.com/250x175' />
+          <img src='https://via.placeholder.com/250x175' alt='' />
         </a>
         <div className={classes.textRight}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae quasi

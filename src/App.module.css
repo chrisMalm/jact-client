@@ -1,5 +1,8 @@
 .appContainer {
   overflow: hidden;
-  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family:  Suisse Int,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
   /* font-family: 'Noto Sans', sans-serif; */
 }

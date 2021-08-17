@@ -1,24 +1,28 @@
 .wrapperAdventure {
-  height: 500px;
-  background-color: #d6d6d6;
+  background-color: #f4f4f4;
   width: 100%;
   display: flex;
-  padding: 20px;
 }
 .adventureTextOne {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  border-right: 1px solid;
   text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #565555;
+  padding: 20px;
 }
-.adventureTextTwo {
+.visionAndMissionImg {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  text-align: center;
+}
+img{
+  box-shadow:1px 1px 16px #767676;
+  -moz-box-shadow: 1px 1px 16px #767676;
+  -webkit-box-shadow:1px 1px 16px #767676;
+  -khtml-box-shadow: 1px 1px 16px #767676;
 }

@@ -1,0 +1,32 @@
+.wrapperQandA {
+    width: 100%;
+    height: 500px;
+    background-color: #f4f4f4;
+    display: flex;
+    padding: 20px;
+  }
+  .qAndAImg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid;
+  }
+  .qAndAText {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .wrapperQandAImg {
+    display: flex;
+    padding: 20px;
+  }
+  .qAndAImgOne,
+  .qAndAImgTwo {
+    padding: 20px;
+  }
+  

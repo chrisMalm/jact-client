@@ -1,44 +1,22 @@
 import classes from './JoinTheNetwork.module.css';
 import React from 'react';
+import shoeStore from '../../assets/carousel2.jpg';
 
 export const JoinTheNetwork = () => {
   return (
     <div id='network' className={classes.wrapperTheNetwork}>
-      <div className={classes.networkText}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quis
-        numquam reiciendis quaerat dolorum neque in vitae voluptatem, rem
-        asperiores, sed eius quod praesentium vero quasi repellendus odio
-        pariatur nam impedit fuga ad dicta optio. Ab adipisci aliquam numquam
-        hic porro, et sed qui tenetur soluta beatae fugit explicabo. Amet
-        ducimus harum tenetur repellat temporibus fugiat soluta earum. Nesciunt
-        dolorem ex quas ad in dolorum iusto nemo repellat voluptas aperiam,
-        culpa repudiandae ipsa cupiditate similique molestias tenetur nostrum.
-        Quod numquam exercitationem minus itaque molestias expedita
-        necessitatibus debitis eveniet nostrum. Magni quos voluptate commodi.
-        Alias sunt officia impedit dolorem qui laborum fugiat odit eveniet
-        itaque quas nemo doloremque sint, quaerat aspernatur dicta ad! Porro
-        nisi tenetur enim ipsa? Id, quis numquam?
-      </div>
-      <div className={classes.networkImg}>
+          <div className={classes.networkImg}>
         {' '}
-        <a href='http://placeholder.com'>
-          <img src='https://via.placeholder.com/450x150' />
-        </a>
-        <div className={classes.wrapperNetworkImg}>
-          <div className={classes.networkImgOne}>
-            {' '}
-            <a href='http://placeholder.com'>
-              <img src='https://via.placeholder.com/150x150' />
-            </a>
-          </div>
-          <div className={classes.networkImgTwo}>
-            {' '}
-            <a href='http://placeholder.com'>
-              <img src='https://via.placeholder.com/150x150' />
-            </a>
-          </div>
-        </div>
+        <img src={shoeStore} width="600" height="450" alt=''/>
+        
       </div>
+      <div className={classes.networkText}>
+       
+"Experience inside our walls there is experiences from players, leaders and the role as deciding over elite clubs, both nationally and internationally. We come from working in the elite stage from the highest ranked leagues in the floorballworld, as well as international championships.
+When you sign to be a member of JACT you get to be a part in the biggest network in the sport today. We are in contact with future possibilities on a daily basis."
+
+      </div>
+  
     </div>
   );
 };
