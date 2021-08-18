@@ -5,14 +5,7 @@
     display: flex;
     padding: 20px;
   }
-  .qAndAImg {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-left: 1px solid;
-  }
+
   .qAndAText {
     align-items: center;
     width: 50%;
@@ -21,12 +14,5 @@
     padding: 20px;
     text-align: center;
   }
-  .wrapperQandAImg {
-    display: flex;
-    padding: 20px;
-  }
-  .qAndAImgOne,
-  .qAndAImgTwo {
-    padding: 20px;
-  }
+  
   

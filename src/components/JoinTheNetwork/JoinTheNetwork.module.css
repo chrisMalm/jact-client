@@ -25,3 +25,34 @@ img{
   -webkit-box-shadow:1px 1px 16px #767676;
   -khtml-box-shadow: 1px 1px 16px #767676;
 }
+
+/* mobile view  */
+
+@media (max-width: 990px) {
+  .wrapperTheNetwork{
+    flex-direction: column;
+  }
+  .networkImg{
+    width: 100%;
+  }
+  .networkText{
+    width: 100%;
+    text-transform: none;
+    font-size: 15px;
+    flex-direction: column;
+    box-shadow:1px 1px 25px #5d5b5b;
+    -moz-box-shadow: 1px 1px 25px #5d5b5b;
+    -webkit-box-shadow:1px 1px 25px #5d5b5b;
+    -khtml-box-shadow: 1px 1px 25px #5d5b5b;
+  }
+  .titleNetwork{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  img{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
+}

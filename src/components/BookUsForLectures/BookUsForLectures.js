@@ -1,29 +1,29 @@
 import classes from './BookUsForLectures.module.css';
 import React from 'react';
+import frontOfKids from '../../assets/carousel5.jpg';
 
 export const BookUsForLectures = () => {
   return (
     <div id='lectures' className={classes.wrapperBookUs}>
-      <div className={classes.bookUsText}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quis
-        numquam reiciendis quaerat dolorum neque in vitae voluptatem, rem
-        asperiores, sed eius quod praesentium vero quasi repellendus odio
-        pariatur nam impedit fuga ad dicta optio. Ab adipisci aliquam numquam
-        hic porro, et sed qui tenetur soluta beatae fugit explicabo. Amet
-        ducimus harum tenetur repellat temporibus fugiat soluta earum. Nesciunt
-        dolorem ex quas ad in dolorum iusto nemo repellat voluptas aperiam,
-        culpa repudiandae ipsa cupiditate similique molestias tenetur nostrum.
-        Quod numquam exercitationem minus itaque molestias expedita
-        necessitatibus debitis eveniet nostrum. Magni quos voluptate commodi.
-        Alias sunt officia impedit dolorem qui laborum fugiat odit eveniet
-        itaque quas nemo doloremque sint, quaerat aspernatur dicta ad! Porro
-        nisi tenetur enim ipsa? Id, quis numquam?
-      </div>
       <div className={classes.bookUsImg}>
         {' '}
-        <a href='http://placeholder.com'>
-          <img src='https://via.placeholder.com/450x350' alt='' />
-        </a>
+        <img src={frontOfKids} width="600" height="450" alt=''/>
+
+      </div>
+      <div className={classes.bookUsText}>
+        <span className={classes.titleBookUs}>Book Us For Lecture</span>
+        After getting emails from different people from clubs and Floorball schools
+        asking us if we could come to them and have lectures about what we do and 
+        how we do it, we think it’s great signals that we doing things right.<br></br>
+        So we have now a sculptured presentation for the ones who needs/wants us
+        to give them a behind the scenes picture of a negotiation and also when we
+        do the matchmaking between different clubs and players.<br></br>
+        We believe that the more people we can reach out to and give the 360 angel
+        and perspective of the complexity with a contract, transfer and the things
+        you need to do to make everybody happy - the more we help our sport to reach
+        the place we want to come to.<br></br>
+        So are you as a club or a school interesting in this string in JACT,
+        just email us and we can talk about making it happen! 
       </div>
     </div>
   );

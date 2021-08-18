@@ -10,12 +10,12 @@ export const Footer = () => {
             <i className={`far fa-envelope ${classes.icons}`}></i>
           </a>
         </div>
-        <div className={classes.contact}>
+        {/* <div className={classes.contact}>
           <a href='tel: +46735177331'>
             {' '}
             <i className={`fas fa-phone  ${classes.icons}`}></i>
           </a>
-        </div>
+        </div> */}
         <div className={classes.contact}>
           <a
             href='https://www.instagram.com/jact.eu/?hl=sv'

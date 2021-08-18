@@ -1,11 +1,11 @@
 import React from 'react';
-import { useState } from 'react';
 import classes from './Header.module.css';
 import  {CgMenu} from 'react-icons/cg'
 import {RiCloseLine} from 'react-icons/ri'
 
-export const Header = () => {
-  const [activeHamburger, setActiveHamburger] = useState(false)
+export const Header = (props) => {
+  const activeHamburger = props.activeHamburger
+  const setActiveHamburger = props.setActiveHamburger
   return (
     <div className={classes.fixedHeader}>
       <div className={classes.smallJactLogo}></div>

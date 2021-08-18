@@ -19,26 +19,6 @@ export const QandA = () => {
             itaque quas nemo doloremque sint, quaerat aspernatur dicta ad! Porro
             nisi tenetur enim ipsa? Id, quis numquam?
           </div>
-          <div className={classes.qAndAImg}>
-            {' '}
-            <a href='http://placeholder.com'>
-              <img src='https://via.placeholder.com/450x150' alt='' />
-            </a>
-            <div className={classes.wrapperQandAImg}>
-              <div className={classes.qAndAImgOne}>
-                {' '}
-                <a href='http://placeholder.com'>
-                  <img src='https://via.placeholder.com/150x150' alt='' />
-                </a>
-              </div>
-              <div className={classes.qAndAImgTwo}>
-                {' '}
-                <a href='http://placeholder.com'>
-                  <img src='https://via.placeholder.com/150x150' alt='' />
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       );
 }

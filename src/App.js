@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import classes from './App.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { JactCarousel } from './components/JactCarousel/JactCarousel';
@@ -15,20 +16,20 @@ import { Footer } from './components/Footer/Footer';
 import { QandA } from './components/Q&A/QandA';
 
 export const App = () => {
-  
+  const [activeHamburger, setActiveHamburger] = useState(false)
   return (
     <div className={classes.appContainer}>
-      <Header />
+      <Header activeHamburger={activeHamburger} setActiveHamburger={setActiveHamburger}/>
       <ScrollToTop />
       {/* <JactCarousel /> */}
-      <Home />
+      <Home activeHamburger={activeHamburger}/>
       <RollingInstagram />
-      {/* <WelcomeToJact /> */}
-      {/* <FindYourAdventure />
-      <JoinTheNetwork /> */}
-      {/* <JactProspectSessions />
+      <WelcomeToJact />
+      <FindYourAdventure />
+      <JoinTheNetwork /> 
+       <JactProspectSessions />
       <BookUsForLectures />
-      <QandA /> */}
+      <QandA />
       <Footer />
     </div>
   );

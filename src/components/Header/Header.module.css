@@ -55,11 +55,11 @@
     text-align: center;
     flex-direction: column;
     position: absolute;
-    top: 260px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    line-height: 46px;
+    line-height: 60px;
     width: 100%;
     background: #201d1d03;
   }
