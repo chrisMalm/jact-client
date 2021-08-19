@@ -24,12 +24,12 @@ export const Header = (props) => {
     }
       {activeHamburger && 
     <div className={classes.mobileLinks}>
-    <a className={classes.mobileLink} href='#welcome'>WELCOME</a> 
-    <a className={classes.mobileLink} href='#adventure'>MISSION & VISION</a>
-    <a className={classes.mobileLink} href='#network'>JOIN THE NETWORK</a>
-    <a className={classes.mobileLink} href='#prospect'>PROSPECT SESSION</a>
-    <a className={classes.mobileLink} href='#lectures'>BOOK US</a>
-    <a className={classes.mobileLink} href='#qAndA'>Q&A</a>
+    <a className={classes.mobileLink} href='#welcome'  onClick={() => setActiveHamburger(!activeHamburger)}>WELCOME</a> 
+    <a className={classes.mobileLink} href='#adventure' onClick={() => setActiveHamburger(!activeHamburger)}>MISSION & VISION</a>
+    <a className={classes.mobileLink} href='#network' onClick={() => setActiveHamburger(!activeHamburger)}>JOIN THE NETWORK</a>
+    <a className={classes.mobileLink} href='#prospect' onClick={() => setActiveHamburger(!activeHamburger)}>PROSPECT SESSION</a>
+    <a className={classes.mobileLink} href='#lectures' onClick={() => setActiveHamburger(!activeHamburger)}>BOOK US</a>
+    <a className={classes.mobileLink} href='#qAndA' onClick={() => setActiveHamburger(!activeHamburger)}>Q&A</a>
   </div>
    
     }
