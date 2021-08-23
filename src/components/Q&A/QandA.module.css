@@ -4,31 +4,38 @@
     display: flex;
     flex-direction: column;
     font-size: 19px;
-    padding-top: 30px;
+    padding-top: 50px;
     line-height: 40px;
   }
 
   .qAndAText {
     align-items: center;
-    width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 20px;
-    text-align: center;
     width: 100%;
     color: #565555;
+    border-bottom: 1px solid #cbcbcb;
   }
   .paragraph{
     font-weight: 600;
   }
   .qanda{
 
-font-size: 19px;
+font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
     letter-spacing: 0.1em;
+    color: #565555;
+    padding-left: 50px;
   }
+
+  .questionIcon{
+margin: 30px; 
+ }
+ .wrapperQuestion{
+   display: flex;
+   flex-direction: column;
+ }
 
   /* mobile view  */
 
@@ -36,6 +43,7 @@ font-size: 19px;
     .wrapperQandA{
       flex-direction: column;
       color: #565555;
+      text-align: center;
     }
     .qanda{
       font-size: 19px;
@@ -46,6 +54,7 @@ font-size: 19px;
       .qAndAText{
         width: 100%;
         flex-direction: column;
+        font-size: 15px;
         
       }
       .paragraph{
