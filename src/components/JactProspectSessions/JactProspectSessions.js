@@ -16,7 +16,6 @@ export const JactProspectSessions = () => {
 <div className={classes.prospectText}>
  <span className={classes.titleProspect}>Prospect Session - Are you the One?</span>
  <div className={classes.paragraph}>
-   <AiOutlineArrowRight style={{marginBottom: "5px", paddingRight: '2px'}}/>
     <b>
       Our journey have been amazing&nbsp;
    </b>
@@ -25,7 +24,6 @@ export const JactProspectSessions = () => {
      players so we can help the teams that wants player-this is our way to try help and fix it
  </div>
  <div className={classes.paragraph}>
- <AiOutlineArrowRight style={{marginBottom: "5px", paddingRight: '2px'}}/>
 
 <b>
 A lot of people email&nbsp;
@@ -36,7 +34,6 @@ A lot of people email&nbsp;
     forum to see you and get to know the person holding the floorball stick.<br></br>
     </div>
     <div className={classes.paragraph}>
-    <AiOutlineArrowRight style={{marginBottom: "5px", paddingRight: '2px'}}/>
 
     <b>
  We are always searching new players&nbsp;
@@ -47,7 +44,6 @@ A lot of people email&nbsp;
  
  
  <div className={classes.paragraph}>
- <AiOutlineArrowRight style={{marginBottom: "5px", paddingRight: '2px'}}/>
 <b>
 You need either&nbsp;
 </b>
@@ -57,7 +53,6 @@ You need either&nbsp;
    who have the opportunitie the chance for a new adventure.<br></br>
  </div>
  <div className={classes.paragraph}>
- <AiOutlineArrowRight style={{marginBottom: "5px", paddingRight: '2px'}}/>
 
    <b>
    Email us today&nbsp;

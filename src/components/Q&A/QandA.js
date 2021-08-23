@@ -8,29 +8,26 @@ export const QandA = () => {
           <div className={classes.qanda}>Q&A</div>
           <div className={classes.qAndAText}>
             <div className={classes.questionIcon}> <BsQuestionCircleFill color='#2e3c5e' size='40px'/></div>
-           <div className={classes.wrapperQuestion}><span className={classes.paragraph}>
+           <div className={classes.wrapperQuestion}>
+             <span className={classes.paragraph}>
             Is it for both boys and female player?
             </span>
             Yes of course, we work with both genders who wants and need our help.</div>
-            
           </div>
           <div className={classes.qAndAText}>
-          <div className={classes.questionIcon}> <BsQuestionCircleFill color='#2e3c5e' size='40px'/></div>
+            <div className={classes.questionIcon}> <BsQuestionCircleFill color='#2e3c5e' size='40px'/></div>
             <div className={classes.wrapperQuestion}>
-            <span className={classes.paragraph}>Do I have to pay, and when?</span>
-            No, not in the beginning. First of all you sign up to our database so we know that you exist. You only pay when the transfer or new contract is done.
+              <span className={classes.paragraph}>Do I have to pay, and when?</span>
+              No, not in the beginning. First of all you sign up to our database so we know that you exist. You only pay when the transfer or new contract is done.
             </div>
-           
           </div>
           <div className={classes.qAndAText}>
-          <div className={classes.questionIcon}> <BsQuestionCircleFill color='#2e3c5e' size='40px'/></div>
-          <div  className={classes.wrapperQuestion}>
-          <span className={classes.paragraph}>I have a contract. Can i sign up anyway?</span>
-                      Of course, no problem. If you have a contract today, then that is yours to honor. But we treat your case confidentially so we keep your profile during your time with us private.
-          If a club is interested in you, we contact you and take the it from there if or when that happens, with full descretion.
-          </div>
-           
-
+            <div className={classes.questionIcon}> <BsQuestionCircleFill color='#2e3c5e' size='40px'/></div>
+            <div  className={classes.wrapperQuestion}>
+            <span className={classes.paragraph}>I have a contract. Can i sign up anyway?</span>
+                        Of course, no problem. If you have a contract today, then that is yours to honor. But we treat your case confidentially so we keep your profile during your time with us private.
+            If a club is interested in you, we contact you and take the it from there if or when that happens, with full descretion.
+            </div>
           </div>
           <div className={classes.qAndAText}>
           <div className={classes.questionIcon}> <BsQuestionCircleFill color='#2e3c5e' size='40px'/></div>
