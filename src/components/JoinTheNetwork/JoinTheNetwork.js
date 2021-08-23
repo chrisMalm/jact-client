@@ -7,7 +7,7 @@ export const JoinTheNetwork = () => {
     <div id='network' className={classes.wrapperTheNetwork}>
           <div className={classes.networkImg}>
         {' '}
-        <img src={shoeStore} width="600" height="450" alt=''/>
+        <img src={shoeStore}  alt=''/>
         
       </div>
       <div className={classes.networkText}>

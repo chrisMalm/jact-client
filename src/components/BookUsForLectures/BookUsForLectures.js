@@ -7,7 +7,7 @@ export const BookUsForLectures = () => {
     <div id='lectures' className={classes.wrapperBookUs}>
       <div className={classes.bookUsImg}>
         {' '}
-        <img src={frontOfKids} width="600" height="450" alt=''/>
+        <img src={frontOfKids}  alt=''/>
 
       </div>
       <div className={classes.bookUsText}>

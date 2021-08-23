@@ -7,10 +7,10 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 
 export const JactProspectSessions = () => {
   return (
-    <div id='network' className={classes.wrapperProspect}>
+    <div id='prospect' className={classes.wrapperProspect}>
     <div className={classes.prospectImg}>
   {' '}
-  <img src={threeAmigos} width="600" height="450" alt=''/>
+  <img src={threeAmigos}  alt=''/>
   
 </div>
 <div className={classes.prospectText}>
@@ -48,8 +48,10 @@ A lot of people email&nbsp;
  
  <div className={classes.paragraph}>
  <AiOutlineArrowRight style={{marginBottom: "5px", paddingRight: '2px'}}/>
-
- You need either to be out of contract after season but it also works
+<b>
+You need either&nbsp;
+</b>
+  to be out of contract after season but it also works
   if your current club give you ”clear” to go, as long we get that in writing. 
   We are not looking to snatch players from their current positions but we want to give the players
    who have the opportunitie the chance for a new adventure.<br></br>

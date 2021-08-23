@@ -1,7 +1,9 @@
 .wrapperProspect {
   width: 100%;
   background-color: #f4f4f4;
-  display: flex
+  display: flex;
+  padding-top: 30px;
+  line-height: 40px;
 }
 
 .prospectImg{
@@ -13,10 +15,10 @@
   align-items: center;
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-size: 17px;
-  text-transform: uppercase;
+  font-size: 19px;
   color: #565555;
   padding: 20px;
 }
@@ -25,6 +27,18 @@ img{
   -moz-box-shadow: 1px 1px 16px #767676;
   -webkit-box-shadow:1px 1px 16px #767676;
   -khtml-box-shadow: 1px 1px 16px #767676;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
+.titleProspect{
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+.paragraph{
+  margin-bottom: 10px;
 }
 
 /* mobile view  */

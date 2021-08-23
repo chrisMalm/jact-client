@@ -8,7 +8,7 @@ export const WelcomeToJact = () => {
       <div className={classes.welcomeImg}>
         {' '}
         
-          <img src={slide1} width="600" height="450 " alt=''/>
+          <img src={slide1} alt=''/>
         
       </div>
       <div className={classes.welcomeText}>

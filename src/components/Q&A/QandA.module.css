@@ -2,15 +2,32 @@
     width: 100%;
     background-color: #f4f4f4;
     display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    padding-top: 30px;
+    line-height: 40px;
   }
 
   .qAndAText {
     align-items: center;
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
     text-align: center;
+    width: 100%;
+    color: #565555;
+  }
+  .paragraph{
+    font-weight: 600;
+  }
+  .qanda{
+
+font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
   }
 
   /* mobile view  */
