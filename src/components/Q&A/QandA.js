@@ -46,7 +46,7 @@ export const QandA = () => {
 					happens, with full descretion.
 				</div>
 			</div>
-			s
+
 			<div className={classes.qAndAText}>
 				<div className={classes.questionIcon}>
 					{' '}
