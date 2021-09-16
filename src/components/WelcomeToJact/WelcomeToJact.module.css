@@ -1,68 +1,77 @@
 .wrapperWelcome {
-  width: 100%;
-  background-color: #f4f4f4;
-  display: flex;
-  line-height: 40px;
+	width: 100%;
+	background-color: #f4f4f4;
+	display: flex;
+	line-height: 40px;
+	justify-content: center;
+}
+.wrapperInfo {
+	display: flex;
+	width: 80%;
 }
 .welcomeImg {
-  width: 50%;
-  display: flex;
-  margin-top: 40px;
+	width: 50%;
+	display: flex;
+	margin-top: 40px;
 }
-.tilteWelcome{
-  font-size: 19px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  letter-spacing: 0.1em;
+.tilteWelcome {
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	letter-spacing: 0.1em;
 }
 .welcomeText {
-  align-items: center;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  text-align: center;
-  font-size: 19px;
-  line-height: 2em;
-  color: #565555;
+	align-items: center;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+	font-size: 19px;
+	line-height: 2em;
+	color: #565555;
 }
-img{
-  box-shadow:1px 1px 16px #767676;
-  -moz-box-shadow: 1px 1px 16px #767676;
-  -webkit-box-shadow:1px 1px 16px #767676;
-  -khtml-box-shadow: 1px 1px 16px #767676;
-  max-width: 100%;
-  min-width: 300px;
-  height: auto;
+img {
+	box-shadow: 1px 1px 16px #767676;
+	-moz-box-shadow: 1px 1px 16px #767676;
+	-webkit-box-shadow: 1px 1px 16px #767676;
+	-khtml-box-shadow: 1px 1px 16px #767676;
+	max-width: 100%;
+	min-width: 300px;
+	height: auto;
 }
 
 /* mobile view  */
 
 @media (max-width: 990px) {
-  .wrapperWelcome{
-    flex-direction: column;
-  }
-  .welcomeImg{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-  }
-  img{
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .welcomeText{
-    width: 100%;
-    text-transform:none;
-    font-size: 15px ;
-    display: flex;
-    flex-direction: column;
-  }
-  .tilteWelcome{
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
+	.wrapperWelcome {
+		flex-direction: column;
+	}
+	.wrapperInfo {
+		width: 100%;
+		flex-direction: column;
+	}
+	.welcomeImg {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	img {
+		max-width: 100%;
+		min-width: 300px;
+		height: auto;
+	}
+	.welcomeText {
+		width: 100%;
+		text-transform: none;
+		font-size: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+	.tilteWelcome {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
 }

@@ -1,76 +1,84 @@
 .wrapperProspect {
-  width: 100%;
-  background-color: #f4f4f4;
-  display: flex;
-  padding-top: 30px;
-  line-height: 40px;
+	width: 100%;
+	background-color: #f4f4f4;
+	/* display: flex; */
+	padding-top: 30px;
+	line-height: 40px;
 }
 
-.prospectImg{
-  width: 50%;
-  display: flex;
-  justify-content: center;
+.prospectImg {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
-.prospectText{
-  align-items: center;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  font-size: 19px;
-  color: #565555;
-  padding: 20px;
+.prospectText {
+	align-items: center;
+	width: 100%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	text-align: center;
+	font-size: 19px;
+	color: #565555;
+	padding: 20px;
 }
-img{
-  box-shadow:1px 1px 16px #767676;
-  -moz-box-shadow: 1px 1px 16px #767676;
-  -webkit-box-shadow:1px 1px 16px #767676;
-  -khtml-box-shadow: 1px 1px 16px #767676;
-  max-width: 100%;
-  min-width: 300px;
-  height: auto;
+.pT {
+	width: 80%;
 }
-.titleProspect{
-  font-size: 19px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  letter-spacing: 0.1em;
+.img {
+	box-shadow: 1px 1px 16px #767676;
+	-moz-box-shadow: 1px 1px 16px #767676;
+	-webkit-box-shadow: 1px 1px 16px #767676;
+	-khtml-box-shadow: 1px 1px 16px #767676;
+	/* max-width: 100%;
+	min-width: 300px;
+	height: auto; */
+	width: 80%;
 }
-.paragraph{
-  margin-bottom: 10px;
+.titleProspect {
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	letter-spacing: 0.1em;
+}
+.paragraph {
+	margin-bottom: 10px;
 }
 
 /* mobile view  */
 
 @media (max-width: 990px) {
-  .wrapperProspect{
-    flex-direction: column;
-  }
-  .prospectImg{
-    width: 100%;
-  }
-  .prospectText{
-    width: 100%;
-    text-transform: none;
-    font-size: 15px;
-    flex-direction: column;
-    box-shadow:1px 1px 25px #5d5b5b;
-    -moz-box-shadow: 1px 1px 25px #5d5b5b;
-    -webkit-box-shadow:1px 1px 25px #5d5b5b;
-    -khtml-box-shadow: 1px 1px 25px #5d5b5b;
-  }
-  .titleProspect{
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-  img{
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .paragraph{
-    margin-bottom: 10px;
-  }
+	.wrapperProspect {
+		flex-direction: column;
+	}
+	.prospectImg {
+		width: 100%;
+	}
+	.pT {
+		width: 100%;
+	}
+	.prospectText {
+		width: 100%;
+		text-transform: none;
+		font-size: 15px;
+		flex-direction: column;
+		box-shadow: 1px 1px 25px #5d5b5b;
+		-moz-box-shadow: 1px 1px 25px #5d5b5b;
+		-webkit-box-shadow: 1px 1px 25px #5d5b5b;
+		-khtml-box-shadow: 1px 1px 25px #5d5b5b;
+	}
+	.titleProspect {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	.img {
+		/* max-width: 100%;
+		min-width: 300px;
+		height: auto; */
+		width: 100%;
+	}
+	.paragraph {
+		margin-bottom: 10px;
+	}
 }
