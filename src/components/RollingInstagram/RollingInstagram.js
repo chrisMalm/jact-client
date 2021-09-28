@@ -3,9 +3,9 @@ import axios from 'axios';
 import classes from './RollingInstagram.module.css';
 
 export const RollingInstagram = () => {
-	const twitterAPI = 'http://localhost:4000/';
-	// const twitterAPI =
-	// 	'https://jact-management-server-dn6a7oour-malmgrenchristoffer-hotmailcom.vercel.app/';
+	// const twitterAPI = 'http://localhost:4000/';
+	const twitterAPI =
+		'https://jact-management-server-9e007yjx6-malmgrenchristoffer-hotmailcom.vercel.app/';
 
 	const [tweets, setTweets] = useState();
 
